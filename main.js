@@ -43,10 +43,10 @@ and the value will be the (power) of the index
 function addKeyPowerIndex(array) {
   // WRITE YOUR CODE UNDER THIS LINE 
   var result=[];
-  var index=0;
-  array.forEach((element,i)=> {
+ // var index=0;
+  array.forEach((element,index)=> {
   element[index]=index*index 
-    index++
+   // index++
   });
   
 
